@@ -1,17 +1,58 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <form>
+
+<head>
+<html>
+<style>
+.form-group{
+	text-align: center;
+}
+
+
+.form-control{
+	text-align:center;
+
+}
+
+
+p.b{
+	text-align: center;
+}
+p.c{
+	 text-align: center;
+
+}
+	 .wrapper{
+	 	 width: 300px;
+		 height: 300px;
+		 margin: 0 auto;
+	 }
+
+
+</style>
+</html>
+</head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">RecTech</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+	  <div class = "collapse navbar-collapse" id="navbarNavAltMarkup">
+	  <div class = "navbar-nav">
+	  <a class="nav-item nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="register.html">Register</a>
     </nav>
-
+<br>
+<h1 align = 'center'> Please Log In </h1>
+<br>
 <form class="dropdown-menu p-4">
+	
+	<div class = 'wrapper'>
 	 <div class="form-group">
-		<label for="exampleDropdownFormFirstName">First Name</label>
-		<input type="first" class="form-control" id="exampleDropdownFormFirstName" placeholder="John">
+	 
+		<label  for="exampleDropdownFormFirstName">First Name</label>
+		<input  type="first" class="form-control" id="exampleDropdownFormFirstName" placeholder="John">
 	</div>
 
 	<div class="form-group">
@@ -23,7 +64,10 @@
 		<label for="exampleDropdownFormPassword2">Date of Birth</label>
 		<input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="mm/dd/yy">
 	</div>
+	</div>
+	<p class ='c'>
 	<button type="submit" class="btn btn-primary">Sign in</button>
+	</p>
 </form>
 
 </body>
