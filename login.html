@@ -1,15 +1,29 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Name</label>
-        <input type="Name" class="form-control" id="inputEmail4" placeholder="Name">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Birthday</label>
-        <input type="Birthday" class="form-control" id="inputPassword4" placeholder="Birthday">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">RecTech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+<form class="dropdown-menu p-4">
+	 <div class="form-group">
+		<label for="exampleDropdownFormFirstName">First Name</label>
+		<input type="first" class="form-control" id="exampleDropdownFormFirstName" placeholder="John">
+	</div>
+
+	<div class="form-group">
+		<label for="exampleDropdownFormLastName">Last Name</label>
+		<input type="last" class="form-control" id="exampleDropdownFormLastName" placeholder="Doe">
+	</div>
+
+	<div class="form-group">
+		<label for="exampleDropdownFormPassword2">Date of Birth</label>
+		<input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="mm/dd/yy">
+	</div>
+	<button type="submit" class="btn btn-primary">Sign in</button>
+</form>
 
 </body>
